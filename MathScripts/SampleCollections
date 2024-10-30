@@ -1,3 +1,13 @@
+movie_list = ["The Godfather","The Shawshank Redemption,Schindlers List","Raging Bull,Casablanca","Citizen Kane","Gone with the Wind"]
+print(movie_list)
+x = len(movie_list)
+print(x)
 
-mylist["The Godfather","The Shawshank Redemption,Schindlers List","Raging Bull,Casablanca","Citizen Kane","Gone with the Wind"]
-x = len(mylist)
+s = sorted(movie_list)
+print(sorted(s))
+
+movie_list.sort()
+movie_list.append("the usual suspects")
+
+print("the movie list",movie_list,"movie recomended",s)
+
