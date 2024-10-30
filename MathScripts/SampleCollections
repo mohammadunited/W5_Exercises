@@ -1,0 +1,3 @@
+
+mylist["The Godfather","The Shawshank Redemption,Schindlers List","Raging Bull,Casablanca","Citizen Kane","Gone with the Wind"]
+x = len(mylist)
