@@ -1,13 +1,19 @@
 movie_list = ["The Godfather","The Shawshank Redemption,Schindlers List","Raging Bull,Casablanca","Citizen Kane","Gone with the Wind"]
-print(movie_list)
+# print(movie_list)
 x = len(movie_list)
-print(x)
+# print(x)
+print('The list' ,movie_list, 'includes the' ,x, 'movies I’d like to watch')
 
-s = sorted(movie_list)
-print(sorted(s))
+#Print a sorted list two ways – Note: make sure that your list items aren’t already in
+#s = sorted(movie_list)
+print(sorted(movie_list))
+print(movie_list)
 
 movie_list.sort()
-movie_list.append("the usual suspects")
+print(movie_list)
 
-print("the movie list",movie_list,"movie recomended",s)
+movie_list.append("the usual suspects")
+print(movie_list)
+
+
 
